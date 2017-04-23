@@ -13,6 +13,7 @@ Then add below entries in pom.xml to add your class in manifest so when you run 
 
 
 <build>
+
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
