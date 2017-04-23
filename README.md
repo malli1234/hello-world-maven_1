@@ -31,20 +31,28 @@ Then add below entries in pom.xml to add your class in manifest so when you run 
 
 
 
+
+
+
+
 TO ADD THIS TO GIT REPO:
 
 ========================
 
 first create new repo in git hub with out readme or gitgonroe
 
-once project is created go that folder
+once project is created go to your folder on your local
+
+and then create README.md file in project dir
+
+------------------------------
 
 echo "This is maven based simple hello- world project" >> README.md
 
-then READEME.md will be created in your dir
 
 
-use the below commands
+
+use the below commands to add this new project to git hub
 
 git init
 
