@@ -9,7 +9,7 @@ Then run below command to create maven project in your local
 
 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
-Then add below entries to add your class in manifest so when you run this jar it will execute this class and give the output
+Then add below entries in pom.xml to add your class in manifest so when you run this jar it will execute this class and give the output
 
 
 <build>
