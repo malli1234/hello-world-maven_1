@@ -77,5 +77,38 @@ config --global user.name "malli1234"
 config --global user.email vadlamudimalli@gmail.com
 
 
-git clone https://github.com/malli1234/hello-world.git
+git clone https://github.com/malli1234/hello-world.git       (will clone master branch named with hello-world)
+
+git clone -b dst_osm_1.17.0 https://github.com/malli1234/hello-world.git dst_osm_1.17.0  (will clone dst_osm_1.17.0 branch (only) of hello-world repo)
+
+
+git add .
+
+git checkout .     (if you add any changes and then want to revert, it will wipe out your changes on your local)
+
+
+git status
+
+
+git commit -m "second edit"     (to stage the changes on your local)
+
+git reset HEAD .                (to revert staged saved changes)  
+
+
+git push
+
+
+
+once it is pushed to git hub go to git hub and you can pull the request to merge to master repo from your branch
+
+
+
+if any changes made in git hub and want to get the update to your local
+
+========================================================================
+
+git pull origin
+
+
+
 
