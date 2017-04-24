@@ -67,3 +67,15 @@ git remote add origin https://github.com/malli1234/repo.git
 git push -u origin master
 
 
+
+
+OTHER IMPOTANT GIT COMMANDS
+===========================
+
+config --global user.name "malli1234"
+
+config --global user.email vadlamudimalli@gmail.com
+
+
+git clone https://github.com/malli1234/hello-world.git
+
