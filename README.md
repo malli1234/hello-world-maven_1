@@ -74,7 +74,7 @@ OTHER IMPOTANT GIT COMMANDS
 
 config --global user.name "malli1234"
 
-config --global user.email vadlamudimalli@gmail.com
+config --global user.email vagghdljjhafffffmudkkkkllimhhhalllllli@gmail.com
 
 
 
