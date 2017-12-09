@@ -1,4 +1,5 @@
-﻿This is maven based simple hello- world project
+This is 1.18.0 branch
+This is maven based simple hello- world project
 
 How to create this project
 
