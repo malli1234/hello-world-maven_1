@@ -1,0 +1,19 @@
+replicaCount: __REPLICAS_DEV__
+image:
+  repository: __IMAGE_REPO__
+  tag: __IMAGE_TAG_DEV__
+  pullPolicy: IfNotPresent
+namespace: __NAMESPACE_DEV__
+service:
+  type: ClusterIP
+  port: __SERVICE_PORT__
+ingress:
+  enabled: __INGRESS_ENABLED_DEV__
+  host: __INGRESS_HOST_DEV__
+resources:
+  limits:
+    cpu: __CPU_LIMIT_DEV__
+    memory: __MEMORY_LIMIT_DEV__
+  requests:
+    cpu: __CPU_REQUEST_DEV__
+    memory: __MEMORY_REQUEST_DEV__

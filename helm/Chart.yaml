@@ -1,0 +1,5 @@
+apiVersion: v2
+name: __APP_NAME__
+description: Helm chart for __APP_NAME__
+version: 0.1.0
+appVersion: "1.0.0"

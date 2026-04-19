@@ -1,0 +1,19 @@
+replicaCount: __REPLICAS_STAGING__
+image:
+  repository: __IMAGE_REPO__
+  tag: __IMAGE_TAG_STAGING__
+  pullPolicy: IfNotPresent
+namespace: __NAMESPACE_STAGING__
+service:
+  type: ClusterIP
+  port: __SERVICE_PORT__
+ingress:
+  enabled: __INGRESS_ENABLED_STAGING__
+  host: __INGRESS_HOST_STAGING__
+resources:
+  limits:
+    cpu: __CPU_LIMIT_STAGING__
+    memory: __MEMORY_LIMIT_STAGING__
+  requests:
+    cpu: __CPU_REQUEST_STAGING__
+    memory: __MEMORY_REQUEST_STAGING__
